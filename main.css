@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body{
+    background-color:rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 450px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    border-radius: 16px;
+    
+}
+
+h1{
+    background-color: crimson;
+    color:rgb(44, 44, 44);;
+}
+
+h2{
+    color: crimson;
+    margin: 5px 0 20px 0;
+}
+
+input{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+
+input:focus{
+    background-color: rgb(221, 255, 255);
+    outline: grey;
+}
+
+button{
+    background-color: crimson;
+    width: 75%;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    border: none;
+    color: rgb(44, 44, 44);
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+button:hover{
+    background-color: rgb(231, 22, 64);
+    color: white;
+}
+
+.copy_right{
+    margin-top: 10px;
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+} .copy_right:hover{color: rgb(131, 130, 130);}
+
+
+.error{
+    background-color: rgb(247, 10, 58);
+    color: rgb(44, 44, 44);
+    padding: 10px;
+    max-width: 350px;
+    margin-left: 8%;
+    margin-top: -8px;
+    display: none;
+    border-radius: 12px;
+}
+
+.success_message{
+    display: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(86, 255, 156, 0.685);
+    border-radius: 12px;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 6px 0 6px 0;
+}
+
+.destaque{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: inline;
+    font-size: 16px;
+}
